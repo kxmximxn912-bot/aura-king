@@ -1,0 +1,21 @@
+{
+  "name": "aura-king-kakao-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "『아우라의 왕』 Kakao i Open Builder skill server",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.86.1"
+  }
+}
